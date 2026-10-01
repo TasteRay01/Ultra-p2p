@@ -1,0 +1,16 @@
+{
+  "name": "stremio-global-ultra-p2p",
+  "version": "3.0.0",
+  "description": "Universal multi-language P2P streaming backend for Stremio and Nuvio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "stremio-addon-sdk": "^3.0.4"
+  }
+}
